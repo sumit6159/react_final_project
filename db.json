@@ -1,0 +1,134 @@
+{
+    "mobile":[
+        {
+            "id":1,
+            "brand":"oppo",
+            "pattern_name":"oppo A34",
+            "model":"CPH2015",
+            "memory":"128 GB",
+            "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVukbn6WZGED4lSoVTBcJVhnQfoPuGaMi3fa9YxH-moVSXBWt2BhTmgcvdm2MT1n4OXg&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":2,
+            "brand":"samsung",
+            "pattern_name":"samsung A20",
+            "model":"SMXC145",
+            "memory":"128 GB",
+            "color":"Silver",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJX7xeuWjfIPWPf-CaXOw-OT0QetNkR9EsTWFbW19hpUASaJ6t8R5MDDztr4C7-_AAT0&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":3,
+            "brand":"Apple",
+            "pattern_name":"iphone 13",
+            "model":"APC145",
+            "memory":"264 GB",
+            "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1h-5MgvzOvUYUAmiBCNiXRFP8mbo1lJiWqA&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":4,
+            "brand":"realme",
+            "pattern_name":"realme 8 pro",
+            "model":"RMXM2365",
+            "memory":"128 GB",
+            "color":"Neon",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHRtnSheRNPYwnZLaPWo9Wu_I6TWxwrvgvFg&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":5,
+            "brand":"redmi",
+            "pattern_name":"redmi 10",
+            "model":"RD654",
+            "memory":"64 GB",
+            "color":"White",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6C2XdpefKcOkyL4ye22YpBW_E5ola7nCLbg&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":6,
+            "brand":"samsung",
+            "pattern_name":"samsung galaxy s30",
+            "model":"SM1AS56",
+            "memory":"256 GB",
+            "color":"White",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2gyMuxIA_1bRy0ZeaytMPI6GCa20m6S1xZnJVqag47lXU89mUl2nGQVj72PRtU6Gabk4&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":7,
+            "brand":"oppo",
+            "pattern_name":"oppo A39",
+            "model":"CPH223",
+            "memory":"128 GB",
+            "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVukbn6WZGED4lSoVTBcJVhnQfoPuGaMi3fa9YxH-moVSXBWt2BhTmgcvdm2MT1n4OXg&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":8,
+            "brand":"Apple",
+            "pattern_name":"iphone 12",
+            "model":"AP1456",
+            "memory":"128 GB",
+            "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMg7tgyNjykl9VGDtlDkU4tV4ceABwQbOfNA&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":9,
+            "brand":"oppo",
+            "pattern_name":"oppo A34",
+            "model":"CPH2015",
+            "memory":"128 GB",
+            "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVukbn6WZGED4lSoVTBcJVhnQfoPuGaMi3fa9YxH-moVSXBWt2BhTmgcvdm2MT1n4OXg&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":9,
+            "brand":"samsung",
+            "pattern_name":"samsung M20",
+            "model":"SMDF1564",
+            "memory":"128 GB",
+            "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLk1BK4_u0WrBltreTD4FNcrkzGIc23ETox4yl00qo5SBne-OC7dgXGkQ-tPhMpUu9lRM&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":10,
+            "brand":"oppo",
+            "pattern_name":"oppo A34",
+            "model":"CPH2015",
+            "memory":"128 GB",
+            "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVukbn6WZGED4lSoVTBcJVhnQfoPuGaMi3fa9YxH-moVSXBWt2BhTmgcvdm2MT1n4OXg&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":11,
+            "brand":"oppo",
+            "pattern_name":"oppo A34",
+            "model":"CPH2015",
+            "memory":"128 GB",
+            "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVukbn6WZGED4lSoVTBcJVhnQfoPuGaMi3fa9YxH-moVSXBWt2BhTmgcvdm2MT1n4OXg&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":12,
+            "brand":"oppo",
+            "pattern_name":"oppo A34",
+            "model":"CPH2015",
+            "memory":"128 GB",
+            "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVukbn6WZGED4lSoVTBcJVhnQfoPuGaMi3fa9YxH-moVSXBWt2BhTmgcvdm2MT1n4OXg&usqp=CAU"
+        }
+       
+    ]
+}
