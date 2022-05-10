@@ -1,8 +1,11 @@
 import React from 'react'
+import Accessories from './accessories/Accessories'
 
 const Detail = () => {
   return (
-    <div>Detail</div>
+    <div>
+      <Accessories/>
+    </div>
   )
 }
 

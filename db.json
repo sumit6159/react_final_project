@@ -91,23 +91,13 @@
             "price":"24,599"
  },
         {
-            "id":9,
+            "id":10,
             "brand":"samsung",
             "pattern_name":"samsung M20",
             "model":"SMDF1564",
             "memory":"128 GB",
             "color":"Black",
             "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLk1BK4_u0WrBltreTD4FNcrkzGIc23ETox4yl00qo5SBne-OC7dgXGkQ-tPhMpUu9lRM&usqp=CAU",
-            "price":"24,599"
- },
-        {
-            "id":10,
-            "brand":"oppo",
-            "pattern_name":"oppo A34",
-            "model":"CPH2015",
-            "memory":"128 GB",
-            "color":"Black",
-            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVukbn6WZGED4lSoVTBcJVhnQfoPuGaMi3fa9YxH-moVSXBWt2BhTmgcvdm2MT1n4OXg&usqp=CAU",
             "price":"24,599"
  },
         {
@@ -127,8 +117,70 @@
             "model":"CPH2015",
             "memory":"128 GB",
             "color":"Black",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVukbn6WZGED4lSoVTBcJVhnQfoPuGaMi3fa9YxH-moVSXBWt2BhTmgcvdm2MT1n4OXg&usqp=CAU",
+            "price":"24,599"
+ },
+        {
+            "id":13,
+            "brand":"oppo",
+            "pattern_name":"oppo A34",
+            "model":"CPH2015",
+            "memory":"128 GB",
+            "color":"Black",
             "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVukbn6WZGED4lSoVTBcJVhnQfoPuGaMi3fa9YxH-moVSXBWt2BhTmgcvdm2MT1n4OXg&usqp=CAU"
         }
        
+    ],
+    "accessories":[
+        {
+            "id":1,
+            "brand":"Boat",
+            "model":"airdopes 138",
+            "price":"3,999",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQokNH_PnOPJd_4FrSiaH7wx0NHyys44uQ&usqp=CAU"
+        },
+        {
+            "id":2,
+            "brand":"JBL",
+            "model":"JBL Flip SE",
+            "price":"7,999",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOW5Eg9X9ce8LLaxiDE3OdttadAPHzCnfV3LCZfuF9dfOJ8L9_tiX0FOfNP-aP4uKERgo&usqp=CAU"
+        },
+        {
+            "id":3,
+            "brand":"Boss",
+            "model":"Boss AX",
+            "price":"16,999",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGYqnSySEYaZy-zxv1zl1pR6on7RY9DoMouDXBMCgAiGszfzoqUR_DOTVN8iKJ_aqdoN4&usqp=CAU"
+        },
+        {
+            "id":4,
+            "brand":"Apple",
+            "model":"airdopes i2",
+            "price":"23,999",
+            "img":"data:image/jpeg;base64,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"
+        },
+        {
+            "id":5,
+            "brand":"Boat",
+            "model":"airdopes 131",
+            "price":"1,999",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4s5ggQmZQxVyTx74zxKVX_KPGfor0QlVNkw&usqp=CAU"
+        },
+        {
+            "id":6,
+            "brand":"JBL",
+            "model":"JBL charge 4",
+            "price":"4,999",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkYaVh57mt7o3VZdvBcy0s355IV1DNmo4cP-dFcmSOeb-ImGsqKVTMdX0Bi_vmYyDWHQ0&usqp=CAU"
+        },
+        {
+            "id":7,
+            "brand":"sennheiser",
+            "model":"cx 180",
+            "price":"33,999",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBJ8rLD0wttlEXT3zbZMYVdvFAmIfyHZPylBLrCtC0NjEt4JeoK_pRrDScpn6WBcxLG6Y&usqp=CAU"
+        }
     ]
+   
 }

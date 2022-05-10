@@ -14,12 +14,12 @@ const Navbar = () => {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <Link to='/'>
-          <button className="nav-link active" aria-current="page" >Home</button>
+          <a className="nav-link active" aria-current="page" >Home</a>
           </Link>
         </li>
         <li className="nav-item">
         <Link to='/detail'>
-        <button className="nav-link" >detail</button>
+        <a className="nav-link" >detail</a>
         </Link>
         </li>
         <li className="nav-item dropdown">

@@ -1,13 +1,15 @@
-import React, { useState,useEffect } from 'react'
-//import axios from "axios"
-import { useSelector, useDispatch } from 'react-redux'
-import { apiGetData } from '../redux/action'
+
+import Accessories from "./accessories/Accessories"
 import "./home.css"
+import Mobile from "./mobiles/Mobile"
+import React from 'react'
+
+
 
 const Home = () => {
  //const [item, setItem]= useState([])
- const dispatch = useDispatch()
- const {data, loading} = useSelector((store)=>store.data)
+//  const dispatch = useDispatch()
+//  const {data, loading} = useSelector((store)=>store.data)
 
   // useEffect(() => {
   //   fetch('https://fakestoreapi.com/products')
@@ -15,23 +17,22 @@ const Home = () => {
   //   .then((result)=>{setItem([...result])})
             
   // }, [])
-  useEffect(()=>{
-    dispatch(apiGetData())
-  }, [dispatch])
+  // useEffect(()=>{
+  //   dispatch(apiGetData())
+  // }, [dispatch])
   
   return (
     <>
      <div className='parentContainer'>
-     {
-         data.map((e)=>(
-           <div key={e.id}>
-             <img src={e.img}  alt="photo" />
-             <h1>{e.pattern_name}</h1>
-             <p>price:{e.price}</p>
-           </div>
-         ))
-       }
+     
+      <Mobile/>
+     
      </div>
+     <div className='parentContainer'>
+     
+     <Accessories/>
+    </div>
+     
     </>
   )
 }
