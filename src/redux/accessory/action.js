@@ -8,7 +8,7 @@ const apiGetAccessory = ()=>{
     return async(dispatch)=>{
         try {
             
-            await axios.get('http://localhost:2445/accessories').then((res)=>{
+            await axios.get('http://localhost:2446/accessories').then((res)=>{
                 dispatch(getAccessory(res.data))
             })
            
