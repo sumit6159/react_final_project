@@ -1,10 +1,12 @@
 
   
 import {GET_DETAIL_Access, GET_DETAIL_mobile} from './action'
-const Details = JSON.parse(localStorage.getItem('Details')) || {};
+const Detailsaccess = JSON.parse(localStorage.getItem('Detailsaccess')) || {};
+const Detailsmobile = JSON.parse(localStorage.getItem('Detailsmobile')) || {};
 
 const initialState = {
-    addressDetails : Details || {},
+    Detailsaccess : Detailsaccess || {},
+    Detailsmobile : Detailsmobile || {},
     loading : false,
     currentData : {},
     
@@ -12,9 +14,9 @@ const initialState = {
 export const detailReducer = (store = initialState, {type, payload}) =>{
     switch(type){
       case GET_DETAIL_Access:
-        return {...store, addressDetails : payload, loading : false}
+        return {...store, Detailsaccess : payload, loading : false}
         case GET_DETAIL_mobile:
-            return {...store, addressDetails : payload, loading : false}
+            return {...store, Detailsmobile : payload, loading : false}
         default:
             return store
     }

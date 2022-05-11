@@ -11,7 +11,7 @@ const apigetDetailsAccess = (id) =>{
         try {
            
             const res = await axios.get(`http://localhost:2446/accessories/${id}`)
-            localStorage.setItem('Details', JSON.stringify(res.data))
+            localStorage.setItem('Detailsaccess', JSON.stringify(res.data))
             dispatch(getDetailsAccess(res.data))
 
         }
@@ -25,7 +25,7 @@ const apigetDetailsmobile = (id) =>{
         try {
            
             const res = await axios.get(`http://localhost:2446/accessories/${id}`)
-            localStorage.setItem('Details', JSON.stringify(res.data))
+            localStorage.setItem('Detailsmobile', JSON.stringify(res.data))
             dispatch(getDetailsMobile(res.data))
 
         }

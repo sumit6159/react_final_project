@@ -7,15 +7,25 @@ import { apigetDetailsAccess, apigetDetailsmobile } from '../../redux/details/ac
 const ProductDetails = () => {
     const {id} = useParams()
     const dispatch = useDispatch()
-    const {addressDetails, loading} = useSelector((store)=> store.details);
-    console.log(addressDetails)
+    const {Detailsmobile, Detailsaccess,loading} = useSelector((store)=> store.detail);
+    //console.log(Detailsmobile)
 
     useEffect(() => {
-        dispatch(apigetDetailsAccess(id)) || dispatch(apigetDetailsmobile(id)) 
+        dispatch(apigetDetailsAccess(id))  
+       
+      }, [])
+
+    useEffect(() => {
+         
+        dispatch(apigetDetailsmobile(id)) 
       }, [])
   return (
     <div>
-        <img src={addressDetails.img} alt="" />
+        <img src={Detailsaccess.img} alt="" /> 
+        <h1>{Detailsaccess.model}</h1>
+             <p>price:{Detailsaccess.price}</p>
+        
+
     </div>
   )
 }
