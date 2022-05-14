@@ -8,7 +8,9 @@ import AccessoryDetail from '../components/ProductDetails/AccessoryDetail'
 import MobileDetail from '../components/ProductDetails/MobileDetail'
 import Login from '../buttons/Login'
 import Signup from '../buttons/Signup'
-import Cart from '../buttons/Cart'
+
+import Cartpage from '../components/cartpage/Cartpage'
+import Checkoutpage from '../checkoutpage/Checkoutpage'
 
 
 const AllRoutes = () => {
@@ -19,7 +21,8 @@ const AllRoutes = () => {
       <Route path='/mobile' element={<Mobile/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<Signup/>}/>
-      <Route path='/cart' element={<Cart/>}/>
+      <Route path='/cart' element={<Cartpage/>}/>
+      <Route path='/checkout' element={<Checkoutpage/>}/>
       <Route path='/accessory' element={<Accessories/>}/>
       <Route path='/ProductDetails/:id' element={<AccessoryDetail/>}/>
       <Route path='/mobileDetail/:id' element={<MobileDetail/>}/>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './mobile.css'
-import { useState,useEffect } from 'react'
+import { useEffect } from 'react'
 //import axios from "axios"
 import { useSelector, useDispatch } from 'react-redux'
 import { apiGetData } from '../../redux/mobile/action'
@@ -13,20 +13,20 @@ const Mobile = () => {
 
   const cardItem=(item)=>{
       return(
-        <div class="card my-5 py-4" key={item.id} style={{width:'18rem'}}>
-  <img src={item.img} class="card-img-top" alt={item.pattern_name}/>
-  <div class="card-body text-center">
-    <h5 class="card-title">{item.pattern_name}</h5>
-    <p class="card-text">price:₹{item.price}</p>
-    <p class="card-text">color:{item.color}</p>
-    <Link to={`/mobileDetail/${item.id}`} class="btn btn-outline-primary">Buy Now</Link>
+        <div className="card my-5 py-4" key={item.id} style={{width:'18rem'}}>
+  <img src={item.img} className="card-img-top" alt={item.titles} height='60%'/>
+  <div className="card-body text-center">
+    <h5 className="card-title">{item.titles}</h5>
+    <p className="card-text">price:₹{item.price}</p>
+    <p className="card-text">color:{item.color}</p>
+    <Link to={`/mobileDetail/${item.id}`} className="btn btn-outline-primary">Buy Now</Link>
   </div>
 </div>
       )
   }
     const dispatch = useDispatch()
-    const {data, loading}= useSelector((store)=>store.data)
-    //console.log(data)
+    const {data}= useSelector((store)=>store.data)
+    //console.log(data[0])
 
     useEffect(()=>{
         dispatch(apiGetData())

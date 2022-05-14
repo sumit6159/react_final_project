@@ -4,6 +4,7 @@ import { itemReducer } from "./mobile/reducer"
 import { accessoryReducer } from "./accessory/reducer"
 import { detailReducer } from "./details/reducer"
 import {mobileDetailReducer} from './mobileDetail/reducer'
+import addItem from './cart/reducer'
 
 
 const rootReducer = combineReducers({
@@ -11,6 +12,7 @@ const rootReducer = combineReducers({
     accessory:accessoryReducer,
     detail:detailReducer,
     mobileDetail:mobileDetailReducer,
+    addItem:addItem
     
 })
 

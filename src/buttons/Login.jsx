@@ -49,7 +49,7 @@ const Login = () => {
                   <input
                     type="email"
                     className="form-control"
-                    id="exampleInputEmail1"
+                    id="exampleInputEmail2"
                     aria-describedby="emailHelp"
                   />
                   <div id="emailHelp" className="form-text">
@@ -63,14 +63,14 @@ const Login = () => {
                   <input
                     type="password"
                     className="form-control"
-                    id="exampleInputPassword1"
+                    id="exampleInputPassword2"
                   />
                 </div>
                 <div className="mb-3 form-check">
                   <input
                     type="checkbox"
                     className="form-check-input"
-                    id="exampleCheck1"
+                    id="exampleCheck2"
                   />
                   <label className="form-check-label" htmlFor="exampleCheck1">
                     Check me out

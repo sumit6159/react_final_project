@@ -1,24 +1,25 @@
-import { ADDITEM, REMOVEITEM} from "./action";
 
 
- const addItem=[]
+
+   export const addItem=[]
     
 
 
-export const addItems =(store= addItem,{type,payload})=>{
-    switch(type){
-        case ADDITEM:
-            return [...store,  payload] 
+ const addItems =(state= addItem, action)=>{
+    switch(action.type){
+        case "ADDITEM":
+            return [...state,  action.payload] 
            
-            case REMOVEITEM:
-                return store = store.filter((x)=>{
-                    return x.id !== payload.id
+            case "REMOVEITEM":
+                return state = state.filter((x)=>{
+                    return x.id !== action.payload.id
                 })
                
             default:
-           return store;
+           return state;
           
     }
     
 }
+export default addItems
 
